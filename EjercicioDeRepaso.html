@@ -7,15 +7,60 @@
     <title>Document</title>
 </head>
 <body>
-    <div>
-        <img src="logoUASLP.png" style="width: 150px; float: left;" >
-        <img src="logoFIUASLP.png" style="width: 150px; float: right;"> 
+    <div style="display: block;">
+        <img src="logoUASLP.png" style="height: 100px; float: left;" >
+        <img src="logoFIUASLP.png" style="height: 100px; float: right;"> 
     </div>
-    
+    <br>
+    <div style="text-align: center; display: block;" >
+        <p class="fontTitle">Ejercicio de repaso</p>
+        <p class="fontText">Arturo Garcia Perez</p>
+    </div>
+    <br>
+    <div id="texto" style="border-bottom: 2px solid lightgrey;">
+        <p class="fontText">Ejemplo de texto</p>
+        <p style="text-align: justify;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam facere accusamus facilis repudiandae incidunt, ad eligendi iste laborum perferendis dolorum veniam non vitae saepe, nostrum debitis similique nulla! Rerum, ad. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolor, voluptatem in? Eveniet dolorum voluptatem, hic, explicabo quos cupiditate excepturi rerum esse corporis ipsa quo reiciendis libero consequuntur soluta velit minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium blanditiis odit repudiandae culpa aperiam deleniti officia, beatae saepe doloremque sed perspiciatis dolores magnam odio temporibus, eum tenetur dolorem nobis eaque.</p>
+    </div>
     <br>
     <div>
-        <text>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, voluptatibus. Quas culpa consequuntur accusamus maxime repudiandae perferendis minus dignissimos voluptates sit, impedit, autem sed inventore, natus dicta aliquid officia. Necessitatibus.</text>
+        <p class="fontText">Ejemplo de tablas</p>
+        <table border="1">
+            <tr>
+                <th>Frameworks</th>
+                <th>Frontend</th>
+                <th>Backend</th>
+            </tr>
+            <tr>
+                <th>Bootstrap</th>
+                <td style="text-align: center;">X</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>jQuery</th>
+                <td style="text-align: center;">X</td>
+                <td></td>
+            </tr>
+            <tr>
+                <th>NodeJs</th>
+                <td colspan="2" style="text-align: center;"> X</td>
+            </tr>
+        </table>
     </div>
-
+    <br>
+    <div >
+        <p class="fontText">Ejemplo de Links</p>
+        <img src="imagen1.png" alt="Imagen 1" style="width: 300px;">
+    </div>
 </body>
 </html>
+<style>
+    .fontTitle{
+        font-size: 35px;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: italic;
+    }
+    .fontText{
+        font-size: 20px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+    }
+</style>
